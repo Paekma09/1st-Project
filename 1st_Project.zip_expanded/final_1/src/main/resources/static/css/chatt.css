@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+.random-1{
+	height: auto;
+	
+}
+#chatt{
+    width: 800px;
+    margin: 20px auto;
+    height: 
+}
+
+#chatt #talk{
+    width: 800px;
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid #aaa;
+}
+
+#chatt #tcontent{
+    width: 740px;
+    height: 100px;
+    display: inline-block;
+}
+
+#chatt #sendZone > *{
+    vertical-align: top;
+}
+
+#chatt #btnSend{
+    width: 54px;
+    height: 100px;
+}
+
+#chatt #talk div{
+    width: 85%;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#chatt .me{
+    background-color: #fbe6ff;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#chatt .other{
+    background-color: #fbe6ff;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.sd{
+    text-align: right;
+    font-size: 80%;
+    color: #828282;
+}
+
+b{
+	font-size: 105%;
+}
+
+img{
+	display: block;
+	margin: auto;
+	opacity: 0.5;
+	position: relative;
+}
+h1{
+	color: #550065;
+}
+#talkView{
+	position: relative;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	align-content: center;
+	vertical-align: middle;
+	background-color: #550065;
+	color: white;
+	border-radius: 10px;
+	width: 15%;
+	height: 10%;
+	margin-top: 50px;
+}

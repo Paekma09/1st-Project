@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+header{
+    background-color: #333;
+    height: auto;
+    border-bottom: 2px solid #550065;
+}
+
+.nav-menu {
+    margin: 0 20% 0 20%;
+    height: 30px;
+    max-width: 980px;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu a {
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #f5f5f7;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 8px;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline-offset: -7px;
+}
+
+.material-symbols-outlined {
+    color: #f5f5f7;
+    line-height: 1.66667;
+}
+
+.d-block {
+    width: 100%;
+    height: 694px;
+}
+
+.footer-wrap {
+    width: auto;
+    height: fit-content;
+    background-color: #550065;
+}
+
+.social-media {
+    color: #f5f5f7;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #f5f5f7;
+}
+
+.brands a {
+    line-height:5;
+    color: #f5f5f7;
+}
+
+.fa-brands {
+   margin-right: 3rem;
+}
+
+.footer-letter {
+    line-height: 5;
+    position: relative;
+    left: 7rem;
+}
+
+.apps {
+    line-height: 5;
+}
+
+.footer-last {
+    color: #f5f5f7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    line-height: 80px;
+}
+
+.rules span {
+   margin-right: 30px;
+   font-size: 15px;
+}
+
+.cpyt {
+    font-size: 0.75rem;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+
+#myDropdown{
+    max-width: 250px;
+    height: auto;
+    border-radius: 30px;
+    -webkit-appearance: none;
+    z-index: 10;
+}
+
+#tableTr{
+    height: auto;
+    padding: 12px 16px;
+    display: block;
+    z-index: 10;
+}
+
+#tableTr input{
+    border-radius: 15px;
+    border-style: 0.5px solid #550065;
+    width: 100%;
+    margin: 3px;
+   
+}
+
+#tableTr th {
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#tableTr:hover {
+    background-color: #ddd;
+    border-radius: 30px;
+    z-index:1;
+}
+
+.show {
+    display:block;
+}
+
+#input_btn input {
+    position: relative;
+    border-radius: 30px;
+    border: 0.5px solid #550065;
+    width: fit-content;
+    height: 10%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 1px solid #550065;
+  }
+
+  .rules a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-right: 30px;
+  }
